@@ -14,5 +14,13 @@ export default [
   eslintConfigPrettier,
   {
     ignores: ["tailwind.config.js"]
+  },
+  {
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        ignores: ["src/components/ui/*.vue"]
+      }
+    ]
   }
 ]
