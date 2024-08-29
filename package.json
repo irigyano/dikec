@@ -16,14 +16,18 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "@vee-validate/zod": "^4.13.2",
+    "@vueuse/core": "^11.0.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.427.0",
     "radix-vue": "^1.9.4",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.13.2",
     "vue": "^3.4.35",
-    "vue-router": "^4.4.3"
+    "vue-router": "^4.4.3",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
