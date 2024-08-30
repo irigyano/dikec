@@ -13,14 +13,13 @@ export default [
   { files: ["**/*.vue"], languageOptions: { parserOptions: { parser: tseslint.parser } } },
   eslintConfigPrettier,
   {
-    ignores: ["tailwind.config.js"]
-  },
-  {
-    "vue/multi-word-component-names": [
-      "error",
-      {
-        ignores: ["src/components/ui/*.vue"]
-      }
-    ]
+    ignores: ["tailwind.config.js", "src/components/ui/**/*.vue"]
   }
+  // for future reference
+  // {
+  //   files: ["src/components/ui/**/*.vue"],
+  //   rules: {
+  //     "vue/multi-word-component-names": "off"
+  //   }
+  // }
 ]
