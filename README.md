@@ -6,6 +6,11 @@ Vue project scaffolder
 bun create irigyano/dk
 ```
 
+```sh
+# not sure if we need to run this on every project setup?
+bunx simple-git-hooks
+```
+
 ## Tech Stack
 
 TypeScript
